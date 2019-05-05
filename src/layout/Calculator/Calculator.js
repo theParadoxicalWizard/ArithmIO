@@ -16,7 +16,7 @@ class Calculator extends React.Component {
     else if (pressedButton === '=') {
       try {
         const evalResult = eval(equation);
-        const result = Number.isInteger(evalResult)? evalResult : evalResult.toFixed(2);
+        const result = Number.isInteger(evalResult)? evalResult : evalResult.toFixed(7);
         this.setState({result});
       } catch (error) {
         alert('Invalid Mathematical Equation');
