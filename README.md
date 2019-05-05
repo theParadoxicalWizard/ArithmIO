@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ArithmIO- A simple calculator built using ReactJS
 
 ## Available Scripts
 
